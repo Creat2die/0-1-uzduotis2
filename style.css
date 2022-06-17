@@ -7,7 +7,6 @@ body {
 .box{
     background-color: white;
     width: 50%;
-    height: 80%;
     border: solid 1px #DAE0EF;
     position: fixed;
     top: 50%;
@@ -132,3 +131,57 @@ textarea {
     color:#429C84;
 }
 
+@media(max-width: 1200px){
+    .box{
+        width: 60%;
+    }
+}
+
+@media(max-width: 1000px){
+    .box{
+        width: 70%;
+    }
+}
+
+@media(max-width: 800px){
+    .box{
+        width: 85%;
+    }
+}
+
+
+@media(max-width: 700px){
+    .box{
+        width: 90%;
+    }
+    .title{
+        font-weight: 100;
+        color: #2D3FBF;
+        font-size: 25px;
+        text-transform: capitalize;
+        margin: 20px 30px 40px 30px;
+    }
+    
+    .form{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        padding: 0 30px;
+    }
+}
+
+@media(max-width: 700px){
+    .firstrow{
+        display: flex;
+        justify-content:space-between;
+        flex-wrap: wrap;
+    }
+    .secondrow{
+        display: flex;
+        width: none;
+        justify-content:space-between;
+        flex-wrap: wrap;
+    }
+
+}
